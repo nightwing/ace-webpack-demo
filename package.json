@@ -1,0 +1,27 @@
+{
+  "name": "ace-webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ace-builds": "^1.4.3",
+    "vscode-css-languageservice": "^3.0.12",
+    "vscode-html-languageservice": "^2.1.10",
+    "vscode-json-languageservice": "^3.2.1",
+    "yaml-language-server": "^0.2.1"
+  },
+  "devDependencies": {
+    "file-loader": "^3.0.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14",
+    "worker-loader": "^2.0.0"
+  }
+}
